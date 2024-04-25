@@ -18,14 +18,14 @@
     display:flex;
     flex:1 auto auto;
     background:rgba(235,0,255,0.11);
-    width: 800px;
-    height: 180px;
+    width: 1000px;
+    height: 300px;
     color:white;
     font-size:100px;
     justify-content: space-between;
     align-items: center;
     padding:60px 70px;
-    backdrop-filter:blur(40px);
+    backdrop-filter:blur(50px);
     position: absolute;
     z-index: 2;
     flex-basis: 25%;
@@ -36,11 +36,11 @@
 .container::after{
     content:'';
     position: absolute;
-    height: 150px;
-    width:150px;
+    height: 200px;
+    width:200px;
     background:#f41b75;
-    left:100px;
-    top:100px;
+    left:350px;
+    top:240px;
 }
 .container::before{
     content:'';
@@ -48,7 +48,7 @@
     height: 200px;
     width:200px;
     background:#419aff;
-    right:90px;
-    bottom:100px;
+    right:350px;
+    bottom:240px;
     border-radius:50%;
 }
